@@ -1,4 +1,4 @@
-package blobindex;
+package testers;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
@@ -14,7 +14,9 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-class BlobTest {
+import blobindex.Blob;
+
+class BlobTester {
 	private static File f;
 	private static String ogContent;
 	@BeforeAll

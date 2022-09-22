@@ -1,4 +1,4 @@
-package blobindex;
+package testers;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
@@ -13,7 +13,9 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-class IndexTest {
+import blobindex.Index;
+
+class IndexTester {
 	private static File f;
 	private static Index indy;
 	
